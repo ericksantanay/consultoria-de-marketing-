@@ -102,6 +102,7 @@ main #conteudo-01{
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 main #conteudo-01-txt{
@@ -126,5 +127,13 @@ main #conteudo-01-txt p{
     font-weight: 400;
     font-family: var(--font-paragrafo);
     line-height: 30px;
-    margin-bottom: 25px;
+    margin-bottom: 60px;
 }
+
+main #conteudo-01-txt a{
+    padding: 15px;
+    background-color: var(--cor-2);
+    font-family: var(--font-btn);
+    border-radius: 20px;
+}
+
