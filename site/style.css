@@ -169,11 +169,14 @@ main #conteudo-01-txt a:hover{
 }
 
 .Conteudo-02 .servico{
-    width: 400px;
+    width: 565px;
     height: 150px;
+    color: ;
     display: flex;
     flex-direction: column;
     border: 1px solid black;
     margin: 10px;
-
+    background-color: #055eab;
+    border: 2px solid #000;
 }
+
