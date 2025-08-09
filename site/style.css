@@ -37,14 +37,19 @@ body{
 }
 
 header{
-    margin-top: 10px;
-    margin-bottom: 20px;
+   padding: 13px;
+   margin-bottom: 10px;
+   position: fixed;
+   left: 0;
+   right: 0;
+   overflow: 99;
 }
 
 nav #cabecalho{
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 #cabecalho div{
