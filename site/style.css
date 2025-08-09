@@ -149,7 +149,6 @@ main #conteudo-01-txt a:hover{
 .Conteudo-02{
     margin-top: 35px;
     background-color: #D9D9D9;
-    display: grid;
 }
 
 .Conteudo-02 .titulo h1{
@@ -160,3 +159,21 @@ main #conteudo-01-txt a:hover{
     margin-bottom: 15px;
 }
 
+.Conteudo-02 .titulo h1 span{
+    color: #055eab;
+}
+
+.Conteudo-02 .servicos{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+}
+
+.Conteudo-02 .servico{
+    width: 400px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 10px;
+
+}
