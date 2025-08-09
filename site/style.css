@@ -110,6 +110,8 @@ main #conteudo-01-txt{
     height: 400px;
     background-color:  #f2f2f275;
     padding: 0px 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
 }
 
 main #conteudo-01-txt h1{
@@ -137,3 +139,9 @@ main #conteudo-01-txt a{
     border-radius: 20px;
 }
 
+main #conteudo-01-txt a:hover{
+    transition: 0.5s;
+    font-size: 18px;
+    color: white;
+    background-color: #055eab;
+}
