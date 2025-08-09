@@ -12,7 +12,7 @@
     --font-menu: "Lexend", sans-serif ;
     --font-btn: sans-serif;
     --font-titulos:"Oswald", sans-serif;
-    --font-texto:  "Poppins", sans-serif;
+    --font-paragrafo:  "Poppins", sans-serif;
     --font-feedbak:  "Roboto Mono", monospace;
     /*Cores*/
     --cor-1: #055eab;
@@ -108,12 +108,23 @@ main #conteudo-01-txt{
     width: 500px;
     height: 400px;
     background-color:  #f2f2f275;
-    padding: 10px;
+    padding: 0px 10px;
 }
 
 main #conteudo-01-txt h1{
-    text-align: center;
     font-family: var(--font-titulos);
     color: var(--cor-6);
+    font-size: 2.2rem;
+    font-weight: 700;
     margin-top: 15px;
+    text-align: center;
+}
+
+main #conteudo-01-txt p{
+    margin-top: 15px;
+    font-size: 1.4rem;
+    font-weight: 400;
+    font-family: var(--font-paragrafo);
+    line-height: 30px;
+    margin-bottom: 25px;
 }
