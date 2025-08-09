@@ -56,7 +56,15 @@ nav #cabecalho{
     border-radius: 50%;
 }
 
-#cabecalho #menus a{
+#cabecalho #menus ul{
+    display: flex;
+}
+
+#cabecalho #menus ul li{
+    list-style-type: none;
+}
+
+#cabecalho #menus  a{
     padding: 10px;
     font-family: var(--font-menu);
     font-weight: 400;
