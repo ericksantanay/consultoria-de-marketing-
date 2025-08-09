@@ -37,6 +37,7 @@ body{
 }
 
 header{
+    margin-top: 10px;
     margin-bottom: 20px;
 }
 
@@ -74,4 +75,22 @@ nav #cabecalho{
     color: var(--cor-1);
     text-decoration: underline;
 }
+
+#btn-contato a{
+    padding: 15px;
+    background-color: rgba(15, 235, 15, 0.911);
+    border-radius: 25px;
+    font-family: var(--font-btn);
+}
+
+#btn-contato a:hover{
+    transition: 0.3s;
+    color: white;
+    background-color:  rgba(5, 93, 5, 0.911);
+    text-decoration: underline;
+}
+
+
+
+
 
