@@ -134,15 +134,18 @@ main #conteudo-01-txt p{
     line-height: 30px;
     margin-bottom: 60px;
 }
+/*btn-contato*/
 
-main #conteudo-01-txt a{ /*btn-contato*/
+main #conteudo-01-txt a{ 
     padding: 15px;
     background-color: var(--cor-2);
     font-family: var(--font-btn);
     border-radius: 20px;
 }
 
-main #conteudo-01-txt a:hover{  /*btn-contato*/
+/*btn-contato*//*btn-contato*/
+
+main #conteudo-01-txt a:hover{  
     transition: 0.5s;
     font-size: 18px;
     color: white;
@@ -231,7 +234,7 @@ main #conteudo-01-txt a:hover{  /*btn-contato*/
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(../image/img-G.jpeg);
+    background-image: url(image/img-G.jpeg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
