@@ -239,15 +239,16 @@ main #conteudo-01-txt a:hover{  /*btn-contato*/
     border-radius: 5px;
     background-color:#f2f2f285;
     height: 240px;
-     box-shadow: rgba(0, 0, 0, 0.247) 0px 30px 90px;
-     text-align: center;
-     padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.247) 0px 30px 90px;
+    padding: 10px;
+    text-align: center;
 }
 
 .conteudo-03 h2{
     margin-top: 30px;
     color: black;
     font-family: var(--font-titulos);
+    text-align: center;
 }
 
 .conteudo-03 p{
@@ -255,8 +256,31 @@ main #conteudo-01-txt a:hover{  /*btn-contato*/
     font-family: var(--font-paragrafo);
 }
 
-.conteudo-03 a{
-    padding: 10px;
+.conteudo-03 article a{
+    padding: 15px;
     background-color: var(--cor-3);
     border-radius: 25px;
+    font-family: var(--font-btn);
+    
+}
+
+.conteudo-03 article a:hover{
+    font-size: 18px;
+    transition: 0.4s;
+    color: white;
+    background-color: var(--cor-1);
+}  
+
+.conteudo-03 article > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+footer{
+    margin-top: 15px;
+    padding: 50px;
+    background-color: var(--cor-1);
+    background-image: linear-gradient(to top white var());
 }
