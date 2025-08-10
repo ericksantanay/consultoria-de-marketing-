@@ -232,6 +232,7 @@ main #conteudo-01-txt a:hover{  /*btn-contato*/
     align-items: center;
     justify-content: center;
     background-image: url(../imagens/img-G.jpeg);
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

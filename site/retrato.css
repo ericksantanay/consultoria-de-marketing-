@@ -33,6 +33,7 @@ body{
 /*Cabeça/Inicio*/
 header{
   width: 100%;
+  margin-bottom: 20px;
 }
 
 header #cabecalho .logo img{
@@ -43,6 +44,10 @@ header #cabecalho .logo img{
 header #cabecalho #menus ul{
     display: flex;
     flex-direction: column;
+}
+
+header #menus li >a{
+  color: #000;
 }
 
 /*Main / Corpo*/
@@ -56,3 +61,6 @@ main{
    margin-left: 0;
 }
 /*Conteudo 3*/
+.conteudo-03 article{
+  height: 350px;
+}
