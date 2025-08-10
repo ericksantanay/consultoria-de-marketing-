@@ -222,3 +222,21 @@ main #conteudo-01-txt a:hover{  /*btn-contato*/
     transition: 0.4s;
     font-size: 18px;
 }
+
+.conteudo-03{
+    margin-top: 20px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../imagens/img-G.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.conteudo-03 article{
+    border-radius: 5px;
+    background-color: #ffffff4f;
+    height: 400px;
+}
