@@ -90,6 +90,7 @@ nav #cabecalho{
     color: white;
     background-color:  rgba(5, 93, 5, 0.911);
     text-decoration: underline;
+    font-size: 19px;
 }
 
 /*Conteudo*/
@@ -134,14 +135,14 @@ main #conteudo-01-txt p{
     margin-bottom: 60px;
 }
 
-main #conteudo-01-txt a{
+main #conteudo-01-txt a{ /*btn-contato*/
     padding: 15px;
     background-color: var(--cor-2);
     font-family: var(--font-btn);
     border-radius: 20px;
 }
 
-main #conteudo-01-txt a:hover{
+main #conteudo-01-txt a:hover{  /*btn-contato*/
     transition: 0.5s;
     font-size: 18px;
     color: white;
@@ -210,4 +211,13 @@ main #conteudo-01-txt a:hover{
     background-color: var(--cor-4);
     padding: 15px;
     border-radius: 20px;
+}
+
+.Conteudo-02 .servico a:hover{
+    color: white;
+    background-color: var(--cor-1);
+    padding: 15px;
+    border-radius: 20px;
+    transition: 0.4s;
+    font-size: 18px;
 }
