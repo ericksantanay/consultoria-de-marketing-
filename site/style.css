@@ -281,6 +281,5 @@ main #conteudo-01-txt a:hover{  /*btn-contato*/
 footer{
     margin-top: 15px;
     padding: 50px;
-    background-color: var(--cor-1);
-    background-image: linear-gradient(to top white var());
+    background-image: linear-gradient(to top, #015cab, #175c9ab2);
 }
