@@ -48,6 +48,12 @@ header #cabecalho #menus ul{
     flex-direction: column;
 }
 
+/*Main/Corpo*/
+
+main{
+  min-width: 290px;
+}
+
 #cabecalho #menus li  a{
   margin-right: 0;
   color: #000;
@@ -87,7 +93,7 @@ main .conteudo-01{
 }
 /*Conteudo 3*/
 .conteudo-03 article{
-  height: 350px;
+  height: 395px;
 }
 
 .Conteudo-02 .servicos .servico{
