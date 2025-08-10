@@ -5,7 +5,7 @@
     --font-titulos:"Oswald", sans-serif;
     --font-paragrafo:  "Poppins", sans-serif;
     --font-feedbak:  "Roboto Mono", monospace;
-    
+
     /*Cores*/
     --cor-1: #055eab;
     --cor-2: #D9D9D9;
@@ -15,17 +15,44 @@
     --cor-6: #000;
 }
 
+/*Seletor geral*/
 *{
   margin: 0;
   padding: 0;
   text-decoration: none;
-  color: rgb(0, 0, 0);
-  
+  border: none;
 }
 
+/*Body*/
 body{
     background-color: var(--cor-5);
     width: 100vw;
     height: 100vh;
 }
 
+/*Cabeça/Inicio*/
+header{
+  width: 100%;
+}
+
+header #cabecalho .logo img{
+    width: 30px;
+    height: 30px;
+}
+
+header #cabecalho #menus ul{
+    display: flex;
+    flex-direction: column;
+}
+
+/*Main / Corpo*/
+main{
+  max-width: 700px;
+}
+
+/*Conteudo 2*/
+.Conteudo-02{
+  width: 100%;
+   margin-left: 0;
+}
+/*Conteudo 3*/
