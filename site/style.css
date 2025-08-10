@@ -237,6 +237,26 @@ main #conteudo-01-txt a:hover{  /*btn-contato*/
 
 .conteudo-03 article{
     border-radius: 5px;
-    background-color: #ffffff4f;
-    height: 400px;
+    background-color:#f2f2f285;
+    height: 240px;
+     box-shadow: rgba(0, 0, 0, 0.247) 0px 30px 90px;
+     text-align: center;
+     padding: 10px;
+}
+
+.conteudo-03 h2{
+    margin-top: 30px;
+    color: black;
+    font-family: var(--font-titulos);
+}
+
+.conteudo-03 p{
+    margin-top: 20px;
+    font-family: var(--font-paragrafo);
+}
+
+.conteudo-03 a{
+    padding: 10px;
+    background-color: var(--cor-3);
+    border-radius: 25px;
 }
