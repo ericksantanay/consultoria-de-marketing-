@@ -68,6 +68,12 @@ main{
   max-width: 700px;
 }
 
+/*Conteudo 1*/
+
+main .conteudo-01{
+ background-image: url(../imagens/home-img.jpg);
+}
+
 /*Conteudo 2*/
 .Conteudo-02{
   width: 100%;
@@ -76,4 +82,8 @@ main{
 /*Conteudo 3*/
 .conteudo-03 article{
   height: 350px;
+}
+
+.Conteudo-02 .servicos .servico{
+  
 }
