@@ -46,8 +46,22 @@ header #cabecalho #menus ul{
     flex-direction: column;
 }
 
-header #menus li >a{
+#cabecalho #menus li  a{
   color: #000;
+}
+
+#cabecalho #menus li a:hover{
+  color: #000;
+  text-decoration: none;
+}
+
+header #cabecalho #btn-contato a{
+    color: #000;
+}
+
+header #cabecalho #btn-contato a:hover{
+  text-decoration: none;
+  background-color:  rgba(15, 235, 15, 0.911);
 }
 
 /*Main / Corpo*/
