@@ -279,7 +279,14 @@ main #conteudo-01-txt a:hover{  /*btn-contato*/
 }
 
 footer{
+    text-align: center;
     margin-top: 15px;
-    padding: 50px;
-    background-image: linear-gradient(to top, #015cab, #175c9ab2);
+    padding: 55px;
+    background-image: linear-gradient(to top, #015cab, #014e92d0);
+}
+
+footer p{
+    color: var(--cor-2);
+    font-family: var(--font-btn);
+    margin-bottom: 15px;
 }
