@@ -150,7 +150,7 @@ main #conteudo-01-txt a:hover{
 /*Inicio do Conteudo 2*/
 .Conteudo-02{
     margin-top: 35px;
-    background-color: #D9D9D9;
+    background-color: white;
 }
 
 .Conteudo-02 .titulo h1{
@@ -171,20 +171,19 @@ main #conteudo-01-txt a:hover{
 }
 
 .Conteudo-02 .servico{
-    width: 565px;
-    height: 160px;
-    color: white;
+    width: 350px;
+    height: 300px;
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
+    border-radius: 10px;
     margin: 10px;
-    background-color: var(--cor-3);
-    border: 2px solid #000;
-    padding: 10px;
+    border: 2px solid #2d2b2b54;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.247) 0px 30px 90px;
 }
 
 .Conteudo-02 .servico h3, p{
-    color: white;
+    color: var(--cor-6);
     margin-bottom: 15px;
 }
 
@@ -198,7 +197,17 @@ main #conteudo-01-txt a:hover{
   font-family: var(--font-feedbak);
 }
 
+.Conteudo-02 .servico > div{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
 .Conteudo-02 .servico a{
+    font-family: var(--font-btn);
     text-align: center;
-    color: #000;
+    color: var(--cor-6);
+    background-color: var(--cor-4);
+    padding: 15px;
+    border-radius: 20px;
 }
