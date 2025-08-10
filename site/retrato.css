@@ -55,11 +55,10 @@ header #cabecalho #menus ul{
   text-decoration: none;
 }
 
-header #cabecalho #btn-contato a{
+#cabecalho #btn-contato a{
     color: #000;
 }
-
-header #cabecalho #btn-contato a:hover{
+#cabecalho #btn-contato a:hover{
   text-decoration: none;
   background-color:  rgba(15, 235, 15, 0.911);
 }
