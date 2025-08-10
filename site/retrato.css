@@ -41,6 +41,7 @@ header #cabecalho .logo img{
   margin-right: 0;
   width: 40px;
   height: 40px;
+  border-radius: 50%;
 }
 
 header #cabecalho #menus ul{

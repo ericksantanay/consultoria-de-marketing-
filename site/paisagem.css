@@ -14,4 +14,28 @@
     --cor-5: #ffffff;
     --cor-6: #000;
 }
+/*Cabeça*/
+/*
+header{
 
+}
+
+header #cabecalho #menus li a{
+
+}
+
+header #cabecalho #menus li a:hover{
+
+}
+*/
+
+
+/*Corpo*/
+main .conteudo-01{
+    height: 100vh;
+}
+
+main .conteudo-01 #conteudo-01-txt{
+    height: 360px;
+    margin-top: 40px;
+}
