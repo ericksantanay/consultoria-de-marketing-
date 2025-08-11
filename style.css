@@ -28,7 +28,6 @@
   padding: 0;
   text-decoration: none;
   color: rgb(0, 0, 0);
-
 }
 
 /*Cabeçalho*/
@@ -37,11 +36,11 @@ body{
     width: 100%;
     height: 100vh;
 }
-
+/*
 header{
    
 }
-
+*/
 nav #cabecalho{
     display: flex;
     align-items: center;
