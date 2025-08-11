@@ -83,7 +83,7 @@ main{
 /*Conteudo 1*/
 
 main .conteudo-01{
-  background-image: url(../imagens/home-img.jpg);
+  background-image: url(image/home-img.jpg);
   width: 100%;
 }
 
