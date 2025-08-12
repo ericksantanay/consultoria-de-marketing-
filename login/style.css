@@ -4,6 +4,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&display=swap');
+
 :root{
     /*Cores*/
     --color-1: #3347DE;
@@ -13,9 +15,10 @@
     --color-5: #ffffff;
     --color-6: #E9BD19;
     /*Fontes*/
-    --font-btn:"Roboto", sans-serif;
-    --font-btn2:"Roboto Slab", serif;
-    --font-h1:"Oswald", sans-serif;;
+    --font-btn: "Roboto", sans-serif;
+    --font-btn2: "Roboto Slab", serif;
+    --font-h1: "Oswald", sans-serif;
+    --font-p: "Mozilla Headline", sans-serif;;
 }   
 
 
@@ -40,5 +43,29 @@ main form{
 }
 
 form #left{
-    margin-right: 20px;
+    min-width: 300px;
+    max-width: 1200px;
+    margin-right: 20px
 }
+
+form #left h1{
+    color: var(--color-1);
+    font-family: var(--font-h1);
+    font-size: 2rem;
+}
+
+form #left span{
+    color: var(--color-6);
+}
+
+form #left p{
+    font-family: var(--font-p);
+    font-size: 1.3rem;
+}
+
+form #right{
+    min-width: 300px;
+    max-width: 1200px;
+    margin-right: 20px
+}
+

@@ -24,6 +24,7 @@
 }
 
 main{
+    
     margin: auto;
     padding: 20px;
 }
@@ -35,4 +36,5 @@ main form{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-color: rgba(232, 231, 231, 0.775);
 }
