@@ -80,7 +80,7 @@ form #right .card{
     flex-direction: column;
 }
 
-form #right .card .input{
+form #right .card .input, .area-atuaçao {
     margin-bottom: 10px;
 }
 
@@ -89,3 +89,4 @@ form #right .card input{
     border-radius: 5px;
     border: 1px solid black;
 }
+
