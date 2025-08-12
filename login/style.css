@@ -27,11 +27,15 @@
 }
 
 main{
-    width: 100vw;
-    height: 100vh;
-    background-color: rgb(237, 235, 235);
-    
+    background-color: rgba(232, 231, 231, 0.775);
 }
 
 
+main form{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+}
