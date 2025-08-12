@@ -83,3 +83,7 @@ form #right .card{
 form #right .card .input{
     margin-bottom: 10px;
 }
+
+form #right .card input{
+    padding: 9px;
+}
