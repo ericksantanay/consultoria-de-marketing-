@@ -1,3 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+:root{
+    /*Cores*/
+    --color-1: #3347DE;
+    --color-2: #33B3DE;
+    --color-3: #5633DE;
+    --color-4: #337DDE;
+    --color-5: #ffffff;
+    --color-6: #E9BD19;
+    /*Fontes*/
+    --font-btn:"Roboto", sans-serif;
+    --font-btn2:"Roboto Slab", serif;
+    --font-h1:"Oswald", sans-serif;;
+} 
+
 *{
-    
+    margin: 0px;
+    padding: 0px
 }
+
