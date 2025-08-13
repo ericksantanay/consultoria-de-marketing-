@@ -48,6 +48,13 @@ form #left{
     margin-right: 20px
 }
 
+form #left img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    
+}
+
 form #left h1{
     color: var(--color-1);
     font-family: var(--font-h1);
