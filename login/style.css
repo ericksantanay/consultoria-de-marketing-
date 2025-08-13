@@ -105,7 +105,6 @@ form #right #enviar-e-reset{
 }
 
 form #right #enviar-e-reset > input{
-    margin-left: 10px;
     cursor: pointer;
     border: none;
     background-color: green;

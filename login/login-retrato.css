@@ -24,7 +24,7 @@
 }
 
 main{
-    padding: 20px;
+    overflow-x: hidden;
 }
 
 main form{
@@ -34,4 +34,23 @@ main form{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+form #left{
+    padding:20px;
+}
+
+form #left img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-image: url(../image/essa-logo.png);
+}
+
+form #left h1{
+    margin-bottom: 15px ;
+}
+
+form #left p{
+    margin-bottom: 5px;
 }
