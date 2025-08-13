@@ -98,5 +98,10 @@ form #right .card input{
 }
 
 #enviar-e-reset{
-    
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#enviar-e-reset input{
+    margin-left: 10px;
 }
