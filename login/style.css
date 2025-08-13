@@ -72,16 +72,17 @@ form #right{
 form #right .card{
     background-color: var(--color-5);
     border-radius: 8px;
-    width: 500px;
+    width: 350px;
     height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
 form #right .card .input, .area-atuaçao {
-    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 form #right .card input{
@@ -90,3 +91,8 @@ form #right .card input{
     border: 1px solid black;
 }
 
+.area-atuaçao select{
+    padding: 10px;
+    border-radius: 8px;
+    outline: none;
+}
