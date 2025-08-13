@@ -82,26 +82,41 @@ form #right .card{
 }
 
 form #right .card .input, .area-atuaçao {
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
-form #right .card input{
+form #right .card .input input{
     padding: 9px;
     border-radius: 5px;
     border: 1px solid black;
+    width: 280px;
 }
 
 .area-atuaçao select{
+     width: 300px;
     padding: 10px;
     border-radius: 8px;
     outline: none;
 }
 
-#enviar-e-reset{
+form #right #enviar-e-reset{
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-#enviar-e-reset input{
+form #right #enviar-e-reset > input{
     margin-left: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: green;
+    color: white;
+    font-family: var(--font-btn);
+    font-weight: 600;
+    font-size: 16px;
+    padding: 15px;
+    border-radius: 5px;
+}  
+
+form #right #enviar-e-reset input:hover{
+    background-color: rgba(19, 205, 19, 0.838);
 }
