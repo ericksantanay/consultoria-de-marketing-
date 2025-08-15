@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+:root{
+    /*Fontes*/
+    --font-titulos: "Oswald", sans-serif;
+    --font-para-p:  Arial, Helvetica, sans-serif;
+    /*Cores*/
+    --cor-1: #055eab;
+    --cor-2: #fdfdfd;
+    --cor-3: #8C8B8B;
+    --cor-4: #042b4e;
+    --cor-5: #ffffff;
+    --cor-6: #000;
+ }
+
+ *{
+    margin: 0;
+    padding: 0;
+ }
+
+ body{
+    background-color: var(--cor-2)
+ }
+
+ header{
+    background-color: var(--cor-1);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+ }
+
+ header nav img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+ main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    
+ }
+
+section #h1{
+    color: var(--cor-1);
+    font-family: var(--font-titulos);
+    font-size: 1.9rem;
+    text-align: center;
+    margin-bottom: 10px;
+ }
+
+ 
+ section article p{
+    font-family: var(--font-para-p);
+    font-size: 1.5rem ;
+ }
+
+ section article{
+    background-color: var(--cor-2);
+    margin-bottom: 10px;
+ }
+
+section .conteudo-img{
+    height: 100vh;
+    background-image: url(../image-servicos/marketing-digital-scaled-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+footer{
+    width: vww;
+    text-align: center;
+    padding: 55px;
+    background-image: linear-gradient(to top, #015cab, #014e92d0);
+}
+
+footer p{
+    color: white;
+    font-family: var(--font-btn);
+    margin-bottom: 15px;
+}
