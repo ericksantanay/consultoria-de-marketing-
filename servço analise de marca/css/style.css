@@ -19,5 +19,14 @@
  }
 
  body{
-    
+    background-color: var(--cor-2);
+ }
+
+ header{
+    width: 100%;
+    background-color: var(--cor-1);
+ }
+
+ header {
+
  }
