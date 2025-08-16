@@ -13,7 +13,11 @@
     --cor-6: #000;
  }
 
- *{
+*{
     margin: 0;
     padding: 0;
+ }
+
+ body{
+    
  }
