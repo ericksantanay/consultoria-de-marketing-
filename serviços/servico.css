@@ -84,8 +84,12 @@ section .conteudo-img{
     background-attachment: fixed;
 }
 
-section ..conteudo-img-2{
-    
+section .conteudo-img-2{
+    background-image: url(../image-servicos/img2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 
