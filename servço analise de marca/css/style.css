@@ -13,6 +13,7 @@
     --cor-6: #000;
  }
 
+ /*Seletor Geral*/
 *{
     margin: 0;
     padding: 0;
@@ -21,7 +22,7 @@
  body{
     background-color: var(--cor-2);
  }
-
+   /*Cabeça/Cabeçalho*/
  header{
     width: 100%;
     background-color: var(--cor-1);
@@ -36,14 +37,14 @@
     border-radius: 50%;
     padding: 10px;
  }
-
+/*Main/Corpo*/
  main{
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
  }
-
+/*Conteudo*/
  section article{
     padding: 10px;
     margin-bottom: 15px;
