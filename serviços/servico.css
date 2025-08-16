@@ -85,7 +85,7 @@ section .conteudo-img{
 }
 
 section .conteudo-img-2{
-    background-image: url(../image-servicos/img2.jpg);
+    background-image: url(../image-servicos/marketing-digital-scaled-1.jpg); /*Vou trocar */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
