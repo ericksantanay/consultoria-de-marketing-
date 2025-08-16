@@ -65,9 +65,13 @@ section #h1{
     padding: 10px;
  }
 
+ /*Article*/
+
 section .conteudo p > strong{
     color: #0088ff;
  }
+
+ /*Footer/Final*/
 
 footer{
    text-align: center;
