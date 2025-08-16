@@ -45,6 +45,10 @@
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
  }
 
+ section article{
+    margin-bottom: 15px;
+ }
+
  section article h1{
     color: var(--cor-1);
     font-family: var(--font-titulos);
@@ -54,5 +58,12 @@
  }
 
  section article p{
+    font-size: 1.5rem;
     margin-bottom: 10px;
+    font-family: var(--font-para-p);
+    line-height: 40px;
+ }
+
+ section article strong{
+     color: #0088ff;
  }
