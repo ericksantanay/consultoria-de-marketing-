@@ -41,11 +41,11 @@
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
-    padding: 10px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
  }
 
  section article{
+    padding: 10px;
     margin-bottom: 15px;
  }
 
@@ -53,7 +53,7 @@
     color: var(--cor-1);
     font-family: var(--font-titulos);
     text-align: center;
-    font-size: 1.9rem;
+    font-size: 2rem;
     margin-bottom: 10px;
  }
 
@@ -67,3 +67,17 @@
  section article strong{
      color: #0088ff;
  }
+
+  /*Footer/Final*/
+
+footer{
+   text-align: center;
+   padding: 55px;
+   background-image: linear-gradient(to top, #015cab, #014e92d0);
+}
+
+footer p{
+    color: white;
+    font-family: sans-serif;
+    margin-bottom: 15px;
+}
