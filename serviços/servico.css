@@ -53,22 +53,39 @@ section #h1{
     margin-bottom: 10px;
  }
 
+ section article{
+    background-color: var(--cor-2);
+    margin-bottom: 10px;
+ }
 
+ section .conteudo-img{
+
+ }
+
+ section .conteudo-img-2{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+ }
  
  section article p{
     font-family: var(--font-para-p);
     font-size: 1.5rem ;
     line-height: 35px;
+    padding: 10px;
  }
+
+section .conteudo-img p{
+   background-color: rgba(255, 255, 255, 0.327);
+}
 
  section .conteudo-img-2 p{
-   
    background-color: rgba(255, 255, 255, 0.327);
-   padding: 10px
  }
 
 
- section .conteudo p > strong{
+section .conteudo-img p > strong{
     color: #0088ff;
  }
 
