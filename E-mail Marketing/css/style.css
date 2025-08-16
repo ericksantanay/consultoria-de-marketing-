@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+:root{
+    /*Fontes*/
+    --font-titulos: "Oswald", sans-serif;
+    --font-para-p:  Arial, Helvetica, sans-serif;
+    /*Cores*/
+    --cor-1: #055eab;
+    --cor-2: #fdfdfd;
+    --cor-3: #8C8B8B;
+    --cor-4: #042b4e;
+    --cor-5: #ffffff;
+    --cor-6: #000;
+ }
+/*Seletor Geral*/
+*{
+    margin: 0;
+    padding: 0;
+ }
+
+ body{
+    background-color: var(--cor-2);
+ }
+
+ header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-1);
+ }
+
+ header nav img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    padding: 10px;
+ }
+
+ 
+/*Corpo*/
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+section article{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+section article h1{
+    color: var(--cor-1);
+    text-align: center;
+    font-size: 1.9rem;
+    font-family: var(--font-titulos);
+    margin-bottom: 10px;
+}
+
+section article p{
+    font-family: var(--font-para-p);
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    line-height: 40px;
+}
+
+section article strong{
+    color: #0088ff;
+}
+
+  /*Footer/Final*/
+
+footer{
+   text-align: center;
+   padding: 55px;
+   background-image: linear-gradient(to top, #015cab, #014e92d0);
+}
+
+footer p{
+    color: white;
+    font-family: sans-serif;
+    margin-bottom: 15px;
+}
