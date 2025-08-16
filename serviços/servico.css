@@ -59,7 +59,10 @@ section #h1{
  }
 
  section .conteudo-img{
-
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
  }
 
  section .conteudo-img-2{
@@ -76,42 +79,9 @@ section #h1{
     padding: 10px;
  }
 
-section .conteudo-img p{
-   background-color: rgba(255, 255, 255, 0.327);
-}
-
- section .conteudo-img-2 p{
-   background-color: rgba(255, 255, 255, 0.327);
- }
-
-
-section .conteudo-img p > strong{
+section .conteudo p > strong{
     color: #0088ff;
  }
-
-section .conteudo-img-2  p  strong{
-    color: #0088ff;
- }
-
-
-section .conteudo-img{
-    height: 100vh;
-    background-image: url(../image-servicos/marketing-digital-scaled-1.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-section .conteudo-img-2{
-   height: 100vh;
-    background-image: url(../image-servicos/img2.jpg); /*Vou trocar */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
 
 footer{
     width: vww;
