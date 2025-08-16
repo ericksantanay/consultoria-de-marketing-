@@ -57,25 +57,11 @@ section #h1{
     background-color: var(--cor-2);
     margin-bottom: 10px;
  }
-
- section .conteudo-img{
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-direction: column;
- }
-
- section .conteudo-img-2{
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-direction: column;
- }
  
  section article p{
     font-family: var(--font-para-p);
     font-size: 1.5rem ;
-    line-height: 35px;
+    line-height: 40px;
     padding: 10px;
  }
 
@@ -84,14 +70,13 @@ section .conteudo p > strong{
  }
 
 footer{
-    width: vww;
-    text-align: center;
-    padding: 55px;
-    background-image: linear-gradient(to top, #015cab, #014e92d0);
+   text-align: center;
+   padding: 55px;
+   background-image: linear-gradient(to top, #015cab, #014e92d0);
 }
 
 footer p{
     color: white;
-    font-family: var(--font-btn);
+    font-family: sans-serif;
     margin-bottom: 15px;
 }
