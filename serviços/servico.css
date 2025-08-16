@@ -22,6 +22,8 @@
     background-color: var(--cor-2)
  }
 
+  /*Header/Cabeça*/
+
  header{
     background-color: var(--cor-1);
     width: 100%;
@@ -37,6 +39,8 @@
     padding: 10px;
 }
 
+/*Main/Corpo*/
+
  main{
     min-width: 300px;
     max-width: 1000px;
@@ -44,6 +48,8 @@
     background-color: var(--cor-5);
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
  }
+
+  /*Contedo*/
 
 section #h1{
     color: var(--cor-1);
