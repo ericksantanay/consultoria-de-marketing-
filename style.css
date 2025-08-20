@@ -305,6 +305,7 @@ main #conteudo-01-txt a:hover{
    text-align: center;
    border-radius: 10px;
    box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+   border: 2px solid var(--cor-3);
 }
 
 .depoimento article .depoimentos img{
