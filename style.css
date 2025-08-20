@@ -293,7 +293,7 @@ main #conteudo-01-txt a:hover{
 
 .depoimento #h1 h1{
     text-align: center;
-    margin-top: 20px;
+    padding-top: 10px;
     font-size: 3.0rem;
     font-family: var(--font-titulos);
     color: var(--cor-1);
