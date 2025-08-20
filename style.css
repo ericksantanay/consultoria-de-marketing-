@@ -288,7 +288,7 @@ main #conteudo-01-txt a:hover{
 /*Conteudo 4/ Depoimentos*/
 
 .depoimento{
-
+    background-color: var(--cor-2);
 }
 
 .depoimento article{
@@ -297,13 +297,19 @@ main #conteudo-01-txt a:hover{
 }
 
 .depoimento article .depoimentos{
-    width: ;
+   width: auto;
+   height: auto;
+   padding: 10px;
+   margin: 50px ;
+    background-color: var(--cor-5);
+    text-align: center;
 }
 
 .depoimento article .depoimentos img{
     width: 90px;
     height: 90px;
     border-radius: 50%;
+    margin-bottom: 10px;
 }
 /*Final do site*/
 
