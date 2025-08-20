@@ -27,3 +27,31 @@
     margin: 0;
     padding: 0;
 }
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-1);
+    padding: 10px;
+}
+
+header #img img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+header nav{
+    margin-left: 70%;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav li{
+    list-style: none;
+}
+
+header
