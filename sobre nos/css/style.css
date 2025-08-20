@@ -33,7 +33,8 @@ header{
     align-items: center;
     justify-content: center;
     background-color: var(--cor-1);
-    padding: 10px;
+    padding: 5px;
+    width: 100%;
 }
 
 header #img img{
@@ -43,7 +44,7 @@ header #img img{
 }
 
 header nav{
-    margin-left: 70%;
+    margin-left: 55%;
 }
 
 header nav ul{
@@ -54,4 +55,79 @@ header nav li{
     list-style: none;
 }
 
-header
+header nav ul li a{
+    padding: 20px;
+    color: var(--cor-5);
+    text-decoration: none;
+    font-family: var(--font-menu);
+}
+
+header nav ul li a:hover{
+    text-decoration: underline;
+    font-size: 18px;
+    transition: 0.4s;
+    box-sizing: border-box;
+}
+
+main{
+    min-width: 290px;
+    max-width: 1000px;
+    margin: auto;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 10px;
+}
+
+main section #h1 h1{
+    text-align: center;
+    font-size:3rem;
+    margin: 10px;
+    font-family: var(--font-titulos);
+}
+
+main section article{
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+main section article h3{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-family: var(--font-titulos);
+}
+
+main section article p{
+    line-height: 60px;
+    font-size: 1.9rem;
+    font-family: var(--font-paragrafo);
+}
+
+main section .valores{
+    padding: 40px;
+}
+
+main section .valores ul{
+    margin-top: 20px;
+}
+
+
+main section .valores ul li{
+    font-family: var(--font-paragrafo);
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+    color: var(--cor-1);
+}
+
+/*Footer/Final*/
+
+footer{
+    text-align: center;
+    padding: 55px;
+    background-image: linear-gradient(to top, #015cab, #014e92d0);
+}
+
+footer p{
+    font-family: var(--font-paragrafo);
+    color: white;
+    margin-bottom: 15px;
+}

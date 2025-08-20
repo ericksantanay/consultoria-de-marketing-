@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/*Fontes e Cores*/
+:root{
+    /*Fontes*/
+    --font-menu: "Lexend", sans-serif ;
+    --font-btn: sans-serif;
+    --font-titulos:"Oswald", sans-serif;
+    --font-paragrafo:  "Poppins", sans-serif;
+    --font-feedbak:  "Inter", sans-serif;
+    /*Cores*/
+    --cor-1: #055eab;
+    --cor-2: #db6517;
+    --cor-3: #8C8B8B;
+    --cor-4: #F2F2F2;
+    --cor-5: #ffffff;
+    --cor-6: #000;
+}
+
+/*Header /Inicio*/
+header{
+    margin: 0px;
+    width: 100%;
+}
+
+header #img img{
+    width: 80px;
+    height: 80px;
+    margin-right: 7px;
+}
+
+header nav{
+    margin-left: 0px;
+}
+/*
+header nav ul{  
+}
+*/
+
+header nav ul li{
+    
+}
+
+header nav ul li a{
+   padding: 13px;
+}
+
+header nav ul li a:hover{
+    text-decoration: none;
+    font-size: 16px;
+}
+/*Main / Corpo*/
+
+main{
+
+}
+
+main section #h1 h1{
+    font-size: 2.4rem;
+}
+
+main section article h3{
+    font-size: 2.1rem;
+}
+
+main section article p{
+    font-size: 1.7rem;
+}
