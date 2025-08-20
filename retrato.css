@@ -92,11 +92,17 @@ main .conteudo-01{
   width: 100%;
    margin-left: 0;
 }
+
+.Conteudo-02 .servicos .servico{
+  max-width: 300px;
+}
 /*Conteudo 3*/
 .conteudo-03 article{
   height: 395px;
 }
 
-.Conteudo-02 .servicos .servico{
-  max-width: 300px;
+/*Conteudo 4*/
+
+.depoimento article .depoimentos{
+  margin: 15px 5px ;
 }
