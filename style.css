@@ -296,6 +296,7 @@ main #conteudo-01-txt a:hover{
     margin-top: 20px;
     font-size: 3rem;
     font-family: var(--font-titulos);
+    color: var(--cor-1);
 }
 
 .depoimento article{
