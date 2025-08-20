@@ -313,7 +313,9 @@ main #conteudo-01-txt a:hover{
     margin-bottom: 10px;
 }
 
-
+.depoimento article .depoimentos p{
+    font-family: var(--font-feedbak);
+}
 /*Final do site*/
 
 footer{
