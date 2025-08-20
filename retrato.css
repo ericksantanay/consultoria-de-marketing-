@@ -32,6 +32,7 @@ body{
 
 /*Cabeça/Inicio*/
 header{
+  width: 100%;
   max-width: 300px;
   margin-left: 0px;
   margin-bottom: 20px;
@@ -106,5 +107,10 @@ main .conteudo-01{
 .depoimento article .depoimentos{
   width: 270px;
   margin-left: 14;
-  margin-right: 14 ;
+  margin-right: 14;
+}
+
+/*H1*/
+.depoimento #h1 h1{
+  
 }

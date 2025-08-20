@@ -294,7 +294,7 @@ main #conteudo-01-txt a:hover{
 .depoimento #h1 h1{
     text-align: center;
     margin-top: 20px;
-    font-size: 3.5rem;
+    font-size: 3.0rem;
     font-family: var(--font-titulos);
     color: var(--cor-1);
 }
