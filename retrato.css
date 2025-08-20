@@ -104,5 +104,5 @@ main .conteudo-01{
 /*Conteudo 4*/
 
 .depoimento article .depoimentos{
-  margin: 15px 5px ;
+  width: 270px;
 }
