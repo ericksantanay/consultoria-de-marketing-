@@ -285,6 +285,26 @@ main #conteudo-01-txt a:hover{
     margin-top: 50px;
 }
 
+/*Conteudo 4/ Depoimentos*/
+
+.depoimento{
+
+}
+
+.depoimento article{
+    display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+}
+
+.depoimento article .depoimentos{
+    width: ;
+}
+
+.depoimento article .depoimentos img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
 /*Final do site*/
 
 footer{
