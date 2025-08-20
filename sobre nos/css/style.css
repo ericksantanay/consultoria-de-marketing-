@@ -64,9 +64,6 @@ header nav ul li a{
 
 header nav ul li a:hover{
     text-decoration: underline;
-    font-size: 18px;
-    transition: 0.4s;
-    box-sizing: border-box;
 }
 
 main{
