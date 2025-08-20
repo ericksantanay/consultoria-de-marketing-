@@ -291,6 +291,13 @@ main #conteudo-01-txt a:hover{
     background-color: var(--cor-2);
 }
 
+.depoimento #h1 h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 3rem;
+    font-family: var(--font-titulos);
+}
+
 .depoimento article{
     display: grid;
      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
