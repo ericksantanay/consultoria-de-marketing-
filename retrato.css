@@ -45,6 +45,10 @@ header #cabecalho .logo img{
   border-radius: 50%;
 }
 
+header #cabecalho #menus{
+  display: block;
+}
+
 header #cabecalho #menus ul{
     display: flex;
     flex-direction: column;    
