@@ -58,6 +58,10 @@ nav #cabecalho{
     border-radius: 50%;
 }
 
+#cabecalho #hamburguer{
+    display: none;
+}
+
 #cabecalho #menus ul{
     display: flex;
 }

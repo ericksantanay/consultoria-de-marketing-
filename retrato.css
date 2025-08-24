@@ -36,22 +36,33 @@ header{
   max-width: 300px;
   margin-left: 0px;
   margin-bottom: 20px;
+  padding: 20px;
 }
 
 header #cabecalho .logo img{
-  margin-right: 0;
-  width: 90px;
-  height: 90px;
-  border-radius: 50%;
+  display: none;
 }
 
 header #cabecalho #menus{
-  display: block;
+  display: none;
 }
 
-header #cabecalho #menus ul{
-    display: flex;
-    flex-direction: column;    
+header #cabecalho #hamburguer{
+  display: block;
+  margin-right: 100px;
+  cursor: pointer;
+  padding: 20px;
+}
+
+header #cabecalho #menus  ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+header #cabecalho #menus  ul li{
+  padding-bottom: 30px;
 }
 
 /*Main/Corpo*/
